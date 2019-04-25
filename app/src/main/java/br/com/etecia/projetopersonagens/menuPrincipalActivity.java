@@ -15,11 +15,19 @@ public class menuPrincipalActivity extends AppCompatActivity {
 
     public void abriPersonagem(View view) {
 
-        switch (view.getId()){
-            case R.id.idAquaman:
-                Intent intent = new Intent(menuPrincipalActivity.this,AquamanActivity.class);
+        switch (view.getId()) {
+            case R.id.idAquaman:{
+                Intent intent = new Intent(menuPrincipalActivity.this, AquamanActivity.class);
                 startActivity(intent);
                 break;
+        }
+
+            case R.id.idBatman: {
+                Intent intent = new Intent(menuPrincipalActivity.this, BatmanActivity.class);
+                startActivity(intent);
+                break;
+            }
+
 
         }
     }

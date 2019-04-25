@@ -9,15 +9,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AquamanActivity"></activity>
-        <activity android:name=".menuPrincipalActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MagnetoActivity"></activity>
+        <activity android:name=".MisticaActivity" />
+        <activity android:name=".XavierActivity" />
+        <activity android:name=".VampiraActivity" />
+        <activity android:name=".WolverineActivity" />
+        <activity android:name=".GambitActivity" />
+        <activity android:name=".LukeActivity" />
+        <activity android:name=".TempestadeActivity" />
+        <activity android:name=".JeanActivity" />
+        <activity android:name=".AmericaActivity" />
+        <activity android:name=".FerroActivity" />
+        <activity android:name=".ThorActivity" />
+        <activity android:name=".HulkActivity" />
+        <activity android:name=".PoolActivity" />
+        <activity android:name=".AranhaActivity" />
+        <activity android:name=".GaviaoActivity" />
+        <activity android:name=".AtomoActivity" />
+        <activity android:name=".AsaActivity" />
+        <activity android:name=".BatmanActivity" />
+        <activity android:name=".AquamanActivity" />
+        <activity android:name=".menuPrincipalActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
